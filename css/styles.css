@@ -27,14 +27,17 @@ background-size: 175px;
 }
 
 /*About Me Styles*/
-@media screen and (max-width: 480px) {
+/*Media Query*/
+@media screen and (max-width: 598px) {
     #about {display:none;}
     #about h1 {display:none;}
     /*#contactme h3 {display:none;}*/
-    #contactme {clear:left;}
-    #contactme img {display:none;}
-    .section_button.about {display:none;}
+    #contactme {clear:left;padding-right:75px}
+    #contactme img {height:75px;clear:left;}
+    .text-justify {text-align:center;}
+    /*.section_button.about {display:none;}*/
 }
+
 
 .left-col h1 {
   color: #5E2E30;
