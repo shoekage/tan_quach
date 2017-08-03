@@ -31,10 +31,11 @@ background-size: 175px;
 @media screen and (max-width: 598px) {
     #about {display:none;}
     #about h1 {display:none;}
-    /*#contactme h3 {display:none;}*/
+    /*#contactme h3, p, .form-group, .btn {display:none;}*/
+    /*#contactme .left-col {height: 300px;}*/
     #contactme {clear:left;width:100%;}
-    #contactme img {height:75px;float:left;padding-right:25px;}
-    .text-justify {text-align:center;float:left;vertical-align: center;}
+    #contactme img {height:175px;float:left;margin:-200px;margin-top:-450px;}
+    /*.text-justify {text-align:center;float:left;vertical-align: center;}*/
     .section_button.about {display:none;}
     /*.section_button.contact {display:none;}*/
 }
