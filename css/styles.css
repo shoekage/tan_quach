@@ -276,6 +276,12 @@ bottom:0;
 text-align:right;
 }
 
+.topbar, .bottombar{
+height:45px;
+}
+
+/*Media Queries*/
+
 @media all and (max-width: 540px) {
 
 .section_button {
@@ -287,12 +293,11 @@ text-align:right;
 	height:60px;
 }
 
-/*.contact, .about{
-display: flex;
-justify-content: flex-end;
-align-items: flex-end;
-}*/
-
-.topbar, .bottombar{
-height:45px;
+@media screen and (max-width: 480px) {
+    #about {display:none;}
+    #about h1 {display:none;}
+    /*#contactme h3 {display:none;}*/
+    #contactme {clear:left;}
+    #contactme img {display:none;}
+    .section_button.about {display:none;}
 }
