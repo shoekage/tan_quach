@@ -27,6 +27,14 @@ background-size: 175px;
 }
 
 /*About Me Styles*/
+@media screen and (max-width: 480px) {
+    #about {display:none;}
+    #about h1 {display:none;}
+    /*#contactme h3 {display:none;}*/
+    #contactme {clear:left;}
+    #contactme img {display:none;}
+    .section_button.about {display:none;}
+}
 
 .left-col h1 {
   color: #5E2E30;
@@ -75,13 +83,13 @@ background-size: 175px;
 	margin: 20px auto;
 }
 
-/*div.gallery {
+.gallery {
 	margin-top: 30px;
-}*/
+}
 
-div.gallery ul {
+.gallery ul {
 	list-style-type:none;
-	/*margin-left: 35px;*/
+	margin-left: 35px;
 }
 
 /* animation */
@@ -140,17 +148,6 @@ p.attribution a {
 	color: #4c8d7c;
 }
 
-/* Responsive hack */
-@media only screen and (min-width: 499px) and (max-width: 1212px) {
-	.wrapper {
-		width: 500px;
-	}
-}
-
-@media only screen and (max-width: 498px) {
-	.wrapper {
-		width: 300px;
-	}
 
 	div.gallery ul {
 		list-style-type: none;
@@ -287,12 +284,19 @@ text-align:right;
 	height:60px;
 }
 
-/*.contact, .about{
-display: flex;
-justify-content: flex-end;
-align-items: flex-end;
-}*/
-
 .topbar, .bottombar{
 height:45px;
+}
+
+/* Media Query */
+@media only screen and (min-width: 499px) and (max-width: 768px)  {
+.wrapper {
+	width: 500px;
+}
+}
+
+@media only screen and (max-width: 398px) {
+.wrapper {
+	width: 300px;
+}
 }
