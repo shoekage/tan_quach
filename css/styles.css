@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster|Playfair+Display:900');
 
+.color-weight-light.scroll-arrow {
+  color: #5E2E30;
+}
+
 body {
   background-color: #707070;
   position: relative;
+  scrollbar-face-color: #5e2e30;
 }
 
 a, .btn a {
@@ -230,9 +235,9 @@ background-color:#999eff;
 z-index:100;
 }
 
-.bottombar{
+/*.bottombar{
 bottom:0;
-}
+}*/
 
 .section_button {
 	position: fixed;
@@ -250,7 +255,7 @@ bottom:0;
   color: #B10007;
 }
 
-#work_example01, #work_example01_button, #work_example02, #work_example02_button, #work_example03, #work_example03_button, #work_example04, #work_example04_button, .section_button {
+.section_button {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
